@@ -25,16 +25,18 @@ body{
     margin:0;
     list-style: none;
     
+    
 }
 .nav-menu-link li{
     background-color: #E1C591;
     display: inline-block;
     padding:0 30px;
     color:#1B3159;
+    
 }
 .hero-image-container{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(./images/theater-image-background.png);
-    height: 100%;
+    background-image:url(./images/theater-image-background.png);
+    height: 900px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -47,6 +49,7 @@ body{
     transform: translate(-50%, -50%);
     color: white;
     font-size: 65px;
+    padding-top:300px;
 }
 .month-container{
     display:flex;
